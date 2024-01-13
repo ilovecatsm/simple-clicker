@@ -1,0 +1,33 @@
+body {
+    margin-top: 365px;
+    padding: 0;
+    background-image: url("https://images.pexels.com/photos/7516115/pexels-photo-7516115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-color: rgb(176, 163, 249);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: 125%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1, h2, .center {
+    text-align: center;
+    color: white;
+}
+h1 {
+    font-size: 45px;
+}
+h2 {
+    font-size: 35px;
+}
+button {
+    padding: 15px;
+    width: 150px;
+    height: auto;
+    background-color: rgb(157, 157, 219);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+}
