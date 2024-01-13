@@ -2,7 +2,6 @@ body {
     margin-top: 365px;
     padding: 0;
     background-image: url("https://images.pexels.com/photos/7516115/pexels-photo-7516115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    background-repeat: no-repeat;
     background-color: rgb(176, 163, 249);
     background-blend-mode: multiply;
     background-position: center;
@@ -30,4 +29,8 @@ button {
     border-radius: 10px;
     cursor: pointer;
     font-size: 25px;
+    transition: box-shadow .3s;
+}
+button:hover {
+    box-shadow: 0 0 14px rgba(53, 36, 65, 0.509);
 }
